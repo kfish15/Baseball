@@ -1,0 +1,41 @@
+
+
+
+action items:
+- create README
+- finish file for just brewers wild card race
+
+
+
+
+old notes:
+
+- scoreboards.py will work (well) for getting scores. Need to see how live it is by testing when actual games are on
+
+
+
+- Need to figure out a way to get standings. Could probably create this on your own by parsing through previous days data, but need to know when to start
+		- Search for "MIL" and add to W if win and L if loss
+		- Do so for every team, store in dict? Need something to accoutn for mil_wins and mil_losses and group them. Maybe list of dicts? mil would be on dict, chc would be other
+		- Need to account for off days, double headers, cancelled games (if result != final)
+
+
+
+- Should view getting live results and getting standings as separate issues
+
+
+- Still don't fully know what output will be, but will potentially be something involving
+		- crew, cubs, cards, dbacks, rockies scores
+		- standings in some form, probably just related to the brewers
+		- could set up that top line automatically to only include relevant teams (based on games we're within for certain spot)
+
+- At the beginning of the day could have something about "this is who plays who at what time and what stadium" for the relevant teams
+
+
+
+
+
+
+
+
+
